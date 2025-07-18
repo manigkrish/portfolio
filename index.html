@@ -1,0 +1,877 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Manikandan | Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CDN -->
+  <link href="npm/bootstrap%405.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Cursor Effects -->
+ <!-- <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-outline" id="cursor-outline"></div> -->
+
+  <!-- Background Effects -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+  <div class="bg-noise"></div>
+  <div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand glitch-text" href="#home" data-text="LUKE">Manikandan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link hover-underline-animation" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline-animation" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline-animation" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline-animation" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline-animation" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline-animation" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline-animation" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <!-- Hero Background Elements -->
+    <div class="hero-bg-elements">
+      <div class="hero-lines">
+        <div class="hero-line"></div>
+        <div class="hero-line"></div>
+        <div class="hero-line"></div>
+        <div class="hero-line"></div>
+      </div>
+      <div class="hero-dots">
+        <!-- Hero dots will be added via JavaScript -->
+      </div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="glitch-wrapper">
+        <h1 class="hero-title glitch" data-text="Manikandan Gobalakrishnan">Manikandan Gobalakrishnan</h1>
+      </div>
+      <div class="typing-container">
+        <p class="hero-subtitle"><span class="typing"></span></p>
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary btn-glow">View Projects</a>
+        <a href="#contact" class="btn btn-outline-light btn-glow-secondary">Contact Me</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div>
+        <span class="scroll-arrow">
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2 class="text-gradient">Who am I?</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="about-text" data-aos="fade-right">
+          <!--<p class="lead">I'm a Cybersecurity student, currently studying at University of Central Missouri.</p> -->
+          <p>Hey there, I'm Manikandan Gobalakrishnan! I'm that developer who gets unreasonably excited about clean code and stays up way too late debugging. When not chasing the perfect solution, I'm probably exploring some shiny new tech that caught my attention. My learning style? Dive in headfirst and figure out how to swim while falling! Apparently I'm also learning Swimming.</p>
+          <p>My code is so meticulously organized they make my sock drawer look chaotic—I've been known to refactor perfectly working functions at 2 AM just because the indentation felt wrong. My superpower? Making complex systems look so simple your grandmother could use them. I believe good documentation is like flossing - everyone knows they should do it, but I'm one of the few who actually does(both!). Currently seeking opportunities where I can build meaningful tech, preferably at places that don't mind the occasional dad joke in code comments. Let's create something awesome together!</p>
+          <div class="social-icons">
+            <a href="https://github.com/manigkrish" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/manigkrish/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://leetcode.com/u/manikrishg/" target="_blank" class="social-icon"><i class="fas fa-code"></i></a>
+            <a href="mailto:mxg28990@ucmo.edu" class="social-icon"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="about-card" data-aos="fade-left">
+          <div class="card-3d-wrapper">
+            <div class="card-front">
+              <div class="card-content">
+                <h3>Quick Facts</h3>
+                <ul class="about-list">
+                  <li><i class="fas fa-graduation-cap"></i> Master's in Cybersecurity @ UCM</li>
+                  <li><i class="fas fa-code"></i> 2+ Years in Software & Cloud</li>
+                  <li><i class="fas fa-map-marker-alt"></i> Based in Plano, Texas</li>
+                  <li><i class="fas fa-briefcase"></i> Targeting SDE Roles</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-back">
+              <div class="card-content">
+                <h3>Interests</h3>
+                <ul class="about-list">
+                  <li><i class="fas fa-dumbbell"></i> Fitness</li>
+                  <li><i class="fas fa-gamepad"></i> Gaming</li>
+                  <li><i class="fas fa-laptop-code"></i> Coding</li>
+                  <li><i class="fas fa-brain"></i> Learning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Work Experience Section -->
+  <section id="experience" class="section-padding">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2 class="text-gradient">Work Experience</h2>
+        <div class="underline"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="experience-timeline" data-aos="fade-up">
+            <!-- GT Esports -->
+            <div class="experience-item">
+              <div class="experience-content">
+                <div class="experience-time">
+                  <span class="date">January 2025 - April 2025</span>
+                </div>
+                <div class="experience-info">
+                  <h3>Software Development Intern</h3>
+                  <h4>Expedia Group</h4>
+                  <ul>
+                    <li>Owned backend design decisions using Java Spring Boot, resulting in a 30% reduction in feature store query volume</li>
+                    <li>Redesigned and enhanced the feature store, by implementing storage and querying functionalities using AWS S3, Glue, and Athena</li>
+                    <li>Built a storage system using Apache Hive and Hive Metastore in the code to support and improve the management of feature sets, datasets, schema, and metadata</li>
+                    <li>Partnered with a third-party team to develop a user-friendly interface enabling ML scientists and product managers to access feature sets, datasets, and metadata within Expedia’s Unified Feature Store</li>
+                    <li>Orchestrated the end-to-end pipeline workflow by deploying the new repository with Jenkins and Kubernetes</li>
+                    <li>Presented the project outcomes to management and stakeholders, highlighting how the UFS made data more accessible and demonstrating its benefits and organizational impact</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+                      
+            <!-- Chamberlain Group -->
+            <div class="experience-item">
+              <div class="experience-content">
+                <div class="experience-time">
+                  <span class="date">May 2022 - December 2023</span>
+                </div>
+                <div class="experience-info">
+                  <h3>Software Engineer</h3>
+                  <h4>Accenture</h4>
+                  <ul>
+                    <li>Implemented a scalable microservices architecture using Docker and Kubernetes, achieving auto-scaling capabilities to handle 1M+ daily data streams with built-in fault tolerance.</li>
+                    <li>Developed a Spring Boot backend system for predictive maintenance, integrating Apache Kafka for real-time data streaming and RabbitMQ for event-driven messaging, improving processing efficiency by 40%</li>
+                    <li>Led development of monitoring dashboard using React and Chart.js, cutting fault identification time from hours to minutes and improving issue resolution efficiency by 20%</li>
+                    <li>Engineered ETL pipelines to extract and transform train telemetry data, storing anomalies in PostgreSQL and sensor logs in MongoDB, maintaining a 95% query success rate</li>
+                    <li>Accelerated API performance by integrating Redis cache for frequently accessed data, cutting response times by 30%</li>
+                    <li>Designed RESTful APIs for onboard-to-wayside communication, achieving low-latency data exchange under 50ms</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Teaching Assistant -->
+            <div class="experience-item">
+              <div class="experience-content">
+                <div class="experience-time">
+                  <span class="date">January 2022 - May 2022</span>
+                </div>
+                <div class="experience-info">
+                  <h3>Software Engineer Intern</h3>
+                  <h4>Honeywell Technology Solutions</h4>
+                  <ul>
+                    <li>Created an advanced automation tool using HTML, CSS, JavaScript, and Flask (Python), that streamlined mobile app testing and saved the QA team 10 hours weekly</li>
+                    <li>Developed a full-stack dashboard using Angular, TypeScript, Node.js, and Express.js to automate data management processes and eliminate manual CSV file handling</li>
+                    <li>Migrated test data from Java-based Cucumber feature files to a MongoDB Database, achieving centralized storage and reducing duplicated testing data by 45%</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Skills Section -->
+  <section id="skills" class="section-padding bg-gradient">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Skills & Technologies</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6" data-aos="fade-right">
+        <div class="skills-category">
+          <h3>Programming Languages</h3>
+          <div class="skills-container">
+            <div class="skill-item" data-percentage="90">
+              <div class="skill-info">
+                <span>Java</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-percentage="90">
+              <div class="skill-info">
+                <span>Python</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-percentage="85">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+             <div class="skill-item" data-percentage="80">
+              <div class="skill-info">
+                <span>SQL</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-percentage="75">
+              <div class="skill-info">
+                <span>C++</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="skills-category">
+          <h3>Frameworks & Tools</h3>
+          <div class="skills-container">
+            <div class="skill-item" data-percentage="85">
+              <div class="skill-info">
+                <span>Spring Boot</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-percentage="80">
+              <div class="skill-info">
+                <span>Apache Kafka</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-percentage="75">
+              <div class="skill-info">
+                <span>Node.js</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-percentage="70">
+              <div class="skill-info">
+                <span>AWS</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-percentage="70">
+              <div class="skill-info">
+                <span>REST APIs</span>
+                <span class="skill-percentage">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mt-5">
+      <div class="col-12" data-aos="zoom-in">
+        <div class="tech-cloud">
+          <div class="tech-item">Java</div>
+          <div class="tech-item">Python</div>
+          <div class="tech-item">JavaScript</div>
+            <div class="tech-item">SQL</div>
+          <div class="tech-item">C++</div>
+           <div class="tech-item">HTML/CSS</div>
+          <div class="tech-item">Spring Boot</div>
+          <div class="tech-item">Apache Kafka</div>
+          <div class="tech-item">RabbitMQ</div>
+          <div class="tech-item">REST APIs</div>
+          <div class="tech-item">Node.js</div>
+          <div class="tech-item">Express.js</div>
+          <div class="tech-item">AWS</div>
+          <div class="tech-item">Docker</div>
+          <div class="tech-item">Kubernetes</div>
+          <div class="tech-item">Jenkins</div>
+          <div class="tech-item">PostgreSQL</div>
+          <div class="tech-item">MongoDB</div>
+          <div class="tech-item">MySQL</div>
+          <div class="tech-item">Apache Hive</div>
+          <div class="tech-item">Hive Metastore</div>
+          <div class="tech-item">Git/GitHub</div>
+          <div class="tech-item">Postman</div>
+          <div class="tech-item">Redis</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2 class="text-gradient">Featured Projects</h2>
+        <div class="underline"></div>
+      </div>
+      
+      <div class="projects-filter" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="sde">SDE Projects</button>
+        <button class="filter-btn" data-filter="data">Data Projects</button>
+        </div>
+      
+      <div class="row projects-container">
+        <!-- StreamPulse -->
+        <div class="col-lg-6 col-md-6 project-item sde" data-aos="zoom-in">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-img">
+                  <img src="images/kafka.png" alt="AI Makerspace Nexus" class="img-fluid">
+                  <div class="project-category">Personal</div>
+                </div>
+                <div class="project-info">
+                  <h3>StreamPulse - Event Processing Platform for Wikimedia</h3>
+                  <div class="tech-stack">
+                    <span>Apache Kafka</span>
+                    <span>Spring Boot</span>
+                    <span>Dockers</span>
+                    <span>Kubernetes</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-card-back">
+                <h3>StreamPulse - Event Processing Platform for Wikimedia</h3>
+                <p>Spearheaded the development of real-time data capturing and processing of over 500,000 Wikimedia events daily, including edits, page views, and user interactions</p>
+                <p>Leveraged Apache Kafka for robust, horizontally scalable data ingestion, increasing data processing throughput by 30% and reducing data latency by 40%, significantly enhancing system performance</p>
+                <div class="project-links">
+                   <a href="https://github.com/manigkrish/Apache-Kafka-Wikimedia-queueing" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a> 
+                 <!--  <a href="gym-app.html" class="btn btn-sm btn-outline-light"><i class="fas fa-external-link-alt"></i> View Project</a> -->
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Microservices Security -->
+        <div class="col-lg-6 col-md-6 project-item sde" data-aos="zoom-in" data-aos-delay="100">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-img">
+                  <img src="images/security.png" alt="TikTok Filters" class="img-fluid">
+                  <div class="project-category">Academic</div>
+                </div>
+                <div class="project-info">
+                  <h3>Zero-Trust Microservices Security Gateway</h3>
+                  <div class="tech-stack">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>Spring Security</span>
+                    <span>JWT</span>
+                    <span>OAuth2</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-card-back">
+                <h3>Zero-Trust Microservices Security Gateway</h3>
+                <p>Designed a microservices architecture using Spring Boot, with Eureka for dynamic service discovery and Feign for efficient inter-service communication</p>
+                <p>Integrated an API Gateway to centralize routing and enforce secure access to microservice endpoints, improving system-wide reliability and control</p>
+                <p>Implemented JWT authentication with Spring Security 6 and OAuth2 with Keycloak to enable scalable, centralized identity and access management for both service-to-service and client interaction</p>
+                <div class="project-links">
+                  <a href="https://github.com/manigkrish/springboot-microservices/tree/main/security-service" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                  <!--<a href="gym-app.html" class="btn btn-sm btn-outline-light"><i class="fas fa-external-link-alt"></i> View Project</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- GlobeXchange -->
+        <div class="col-lg-6 col-md-6 project-item sde" data-aos="zoom-in" data-aos-delay="200">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-img">
+                  <img src="images/globexchange.png" alt="Intelligent Tutoring" class="img-fluid">
+                  <div class="project-category">Personal</div>
+                </div>
+                <div class="project-info">
+                  <h3>GlobeXchange</h3>
+                  <div class="tech-stack">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>GCP</span>
+                    <span>Docker</span>
+                    <span>Eureka</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-card-back">
+                <h3>GlobeXchange - Forex Conversion Platform</h3>
+                <p>Devised a scalable, currency exchange platform using microservices, enabling real-time conversions for over 50 currencies</p>
+              <p>Implemented advanced microservices patterns, including service discovery with Eureka Server, distributed tracing with Zipkin, and API Gateway integration to optimize communication and enhance security</p>
+              <p>Accelerated deployment and scalability by containerization services with Docker and deploying on Google Cloud Platform, reducing deployment time by 60% and improving scalability by 80%</p>
+                <div class="project-links">
+                  <a href="https://github.com/manigkrish/Foreign-Exchange-Plaza" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                  <!--<a href="gym-app.html" class="btn btn-sm btn-outline-light"><i class="fas fa-external-link-alt"></i> View Project</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+           <!-- Indeed -->
+        <div class="col-lg-6 col-md-6 project-item web sde" data-aos="zoom-in" data-aos-delay="300">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-img">
+                  <img src="images/indeed.jpeg" alt="Better Spotify Wrapped" class="img-fluid">
+                  <div class="project-category">Personal</div>
+                </div>
+                <div class="project-info">
+                  <h3>Indeed Clone</h3>
+                  <div class="tech-stack">
+                    <span>React.js</span>
+                    <span>Node.js</span>
+                    <span>MongoDB</span>
+                      <span>Kafka</span>
+                        <span>Docker</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-card-back">
+                <h3>Indeed Clone</h3>
+                <p>Engineered a full-stack application leveraging microservices architecture which streamlined user & company registration with
+2-step authentication & real-time chat for over 5,000 users; employed Kafka for seamless inter-service communication.</p>
+                <p>Employed Redis for data caching, achieving a 35-millisecond improvement in average database response time. Leveraged
+JMeter and Mocha to rigorously test website performance post-deployment on AWS ECS with SSL secure connections.</p>
+                <div class="project-links">
+                  <a href="https://github.com/manigkrish/Indeed-Clone.git" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                  <!--<a href="gym-app.html" class="btn btn-sm btn-outline-light"><i class="fas fa-external-link-alt"></i> View Project</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PharmaSight -->
+        <div class="col-lg-6 col-md-6 project-item web sde" data-aos="zoom-in" data-aos-delay="300">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-img">
+                  <img src="images/pharma.png" alt="Better Spotify Wrapped" class="img-fluid">
+                  <div class="project-category">Hackathon</div>
+                </div>
+                <div class="project-info">
+                  <h3>PharmaSight - Drug Effect Predictor</h3>
+                  <div class="tech-stack">
+                    <span>React.js</span>
+                    <span>JavaScript</span>
+                    <span>Flask</span>
+                      <span>Python</span>
+                        <span>MongoDB</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-card-back">
+                <h3>PharmaSight - Drug Effect Predictor</h3>
+                <p>Designed a healthcare platform that analyzes 61,102 drug-side effect associations to deliver personalized medication risk insights for patients and healthcare professionals</p>
+                <p>Engineered an interactive Streamlit interface with efficient data filtering and visualization, enhancing user engagement and simplifying complex drug interaction analysis</p>
+                 <p>Enabled informed clinical decisions and improved patient safety by providing predictive insights on potential adverse effects based on user-specific medication input</p>
+                <div class="project-links">
+                  <a href="https://github.com/manigkrish/drug-effects-predictor" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                  <!--<a href="gym-app.html" class="btn btn-sm btn-outline-light"><i class="fas fa-external-link-alt"></i> View Project</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Amazon Product Comparator -->
+        <div class="col-lg-6 col-md-6 project-item mobile data" data-aos="zoom-in" data-aos-delay="400">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-img">
+                  <img src="images/amazon.png" alt="IdentifAI Project" class="img-fluid">
+                  <div class="project-category">Academic</div>
+                </div>
+                <div class="project-info">
+                  <h3>Amazon Product Comparator</h3>
+                  <div class="tech-stack">
+                    <span>Python</span>
+                    <span>AWS</span>
+                    <span>SQL</span>
+                    <span>REST APIs</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-card-back">
+                <h3>Serverless Amazon Product Analytics</h3>
+                <p>Built a serverless pipeline using AWS Lambda, API Gateway, and S3 to automate ingestion and processing of Amazon product metadata, eliminating manual data handling.</p>
+                <p>Integrated Athena with Python to enable fast, scalable querying, improving data analysis speed by 35% and boosting accuracy to 98%.</p>
+                <p>Streamlined end-to-end product data comparison, enhancing real-time decision-making for e-commerce insights.</p>
+                <div class="project-links">
+                  <a href="https://github.com/manigkrish/Amazon-Product-Comparator" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                  <!--<a href="gym-app.html" class="btn btn-sm btn-outline-light"><i class="fas fa-external-link-alt"></i> View Project</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Flow -->
+        <div class="col-lg-6 col-md-6 project-item web sde" data-aos="zoom-in" data-aos-delay="500">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-img">
+                  <img src="images/flow.png" alt="Gopu" class="img-fluid">
+                  <div class="project-category">Personal</div>
+                </div>
+                <div class="project-info">
+                  <h3>Flow – AI Travel Assistant</h3>
+                  <div class="tech-stack">
+                    <span>React</span>
+                    <span>OpenAI API</span>
+                    <span>Axios</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-card-back">
+                <h3>Flow – AI Travel Assistant</h3>
+                <p>Developed a minimalist mobile app using React Native and OpenAI API to assist users in planning trips through conversational AI, offering personalized travel recommendations.<p>
+                <p>Implemented a smooth and structured UI/UX with guided chat flow, Figma-based designs, and local data persistence via AsyncStorage, enhancing usability and engagement.</p>
+                <p>Enabled real-time, intelligent travel planning by integrating OpenAI for dynamic conversation generation and summarization, streamlining trip decision-making.</p>
+                <div class="project-links">
+                  <a href="https://github.com/manigkrish/Flow-AI-Travel-Assistant" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+                  <!--<a href="gym-app.html" class="btn btn-sm btn-outline-light"><i class="fas fa-external-link-alt"></i> View Project</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kitchen -->
+<div class="col-lg-6 col-md-6 project-item ai education design sde" data-aos="zoom-in" data-aos-delay="600">
+  <div class="project-card">
+    <div class="project-card-inner">
+      <div class="project-card-front">
+        <div class="project-img">
+          <img src="images/kitchen.png" alt="Beelinguapp Redesign" class="img-fluid">
+          <div class="project-category">Hackathon</div>
+        </div>
+        <div class="project-info">
+          <h3>KitchenGenius</h3>
+          <div class="tech-stack">
+            <span>React.js</span>
+            <span>Flask</span>
+            <span>TensorFlow</span>
+            <span>OpenAI API</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card-back">
+        <h3>Kitchen Genius – Recipe Assistant</h3>
+        <p>Built a full-stack AI assistant that identifies ingredients from user-uploaded photos using a custom-trained TensorFlow model and OpenCV2, automating recipe generation.</p>
+        <p>Integrated OpenAI’s GPT to deliver personalized recipes with macros (carbs, protein, fat) tailored to dietary goals like high-protein or low-carb, enhancing meal planning for busy users.</p>
+        <p>Enabled real-time interaction with seamless frontend-backend communication, improving cooking efficiency and decision-making for home cooks, students, and professionals.</p>
+        <div class="project-links">
+          <a href="https://github.com/manigkrish/KitchenGenius" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+          <!--<a href="gym-app.html" class="btn btn-sm btn-outline-light"><i class="fas fa-external-link-alt"></i> View Project</a> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- churn -->
+<div class="col-lg-6 col-md-6 project-item mobile ai design education data" data-aos="zoom-in" data-aos-delay="700">
+  <div class="project-card">
+    <div class="project-card-inner">
+      <div class="project-card-front">
+        <div class="project-img">
+          <img src="images/churn.png" alt="LiftIQ: Gym App with AI Coach" class="img-fluid">
+          <div class="project-category">Academic</div>
+        </div>
+        <div class="project-info">
+          <h3>RetentionFlow: Churn Analytics</h3>
+          <div class="tech-stack">
+            <span>Apache Airflow</span>
+            <span>AWS</span>
+            <span>Redshift</span>
+            <span>Power BI</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card-back">
+        <h3>RetentionFlow: Scalable ETL for Churn Analytics</h3>
+        <p>Developed a fully automated ETL pipeline using Airflow, Glue, and Redshift to detect early signs of customer churn by processing behavioral and transaction data from multiple sources.</p>
+        <p>Built modular DAGs for orchestration and leveraged Glue to clean, transform, and merge datasets before storing them in Redshift for optimized querying.</p>
+        <p>Delivered retention dashboards in Power BI, reducing manual analysis by 70% and helping teams act faster on customer drop-off patterns.</p>
+        <div class="project-links">
+          <a href="https://github.com/manigkrish/Customer-Retention-Analytics-Workflow-using-Airflow-and-Redshift" target="_blank" class="btn btn-sm btn-outline-light"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Education Section -->
+<section id="education" class="section-padding bg-gradient">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Education</h2>
+      <div class="underline"></div>
+    </div>
+
+    <!-- New Flex Container -->
+    <div class="education-container">
+      <!-- Card 1 -->
+      <div class="education-card" data-aos="flip-up">
+        <div class="education-logo">
+          <img src="images/ucm-logo.png" alt="UCM Logo" class="img-fluid">
+        </div>
+        <div class="education-content">
+          <h3>University of Central Missouri</h3>
+          <p class="education-degree">Master's in Computer and Information Systems</p>
+          <p class="education-date">Jan 2024 - May 2025</p>
+          <p><strong>GPA: 3.60/4.0</strong></p>
+        <!--  <div class="education-details">
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Algorithms</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Data Structures</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Intro to AI</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Object-Oriented Programming</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>UI/UX</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Educational Technology</span></div>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="education-card" data-aos="flip-up">
+        <div class="education-logo">
+          <img src="images/mepco-logo.png" alt="Mepco Logo" class="img-fluid">
+        </div>
+        <div class="education-content">
+          <h3>Mepco Schlenk Engineering College</h3>
+          <p class="education-degree">Bachelor of Engineering in Computer Science</p>
+          <p class="education-date">Jul 2016 - May 2020</p>
+          <p><strong>GPA: 3.45/4.0</strong></p>
+           <!--  <div class="education-details">
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Algorithms</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Data Structures</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Intro to AI</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Object-Oriented Programming</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>UI/UX</span></div>
+            <div class="education-detail-item"><i class="fas fa-book"></i><span>Educational Technology</span></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2 class="text-gradient">Get In Touch</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up">
+          <div class="contact-info-card">
+            <div class="contact-header">
+              <div class="contact-avatar">
+                <div class="avatar-inner">MG</div>
+              </div>
+              <h3>Let's Connect</h3>
+            </div>
+            <p class="contact-intro">Feel free to reach out to me for any opportunities, questions, or just to say hello!</p>
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p><a href="mailto:mxg28990@ucmo.edu">mxg28990@ucmo.edu</a></p>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>LinkedIn</h4>
+                  <p><a href="https://www.linkedin.com/in/manigkrish/" target="_blank">@manigkrish</a></p>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>GitHub</h4>
+                  <p><a href="https://github.com/manigkrish" target="_blank">@manigkrish</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-cta">
+              <a href="mailto:mxg28990@ucmo.edu" class="btn btn-primary btn-glow">Send Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>Manikandan</h3>
+            <p>Cybersecurity Student<br>University of Central Missouri</p>
+            <div class="social-links">
+              <a href="https://github.com/manigkrish" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/manigkrish/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://leetcode.com/u/manikrishg/" target="_blank"><i class="fas fa-code"></i></a>
+              <a href="mailto:mxg28990@ucmo.edu"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-links">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#skills">Skills</a></li>              
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="footer-newsletter">
+            <h4>Let's Connect</h4>
+            <p>Feel free to reach out for collaborations, opportunities, or just to say hello!</p>
+            <a href="#contact" class="btn btn-outline-light btn-sm">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="copyright">
+          &copy; <span id="current-year"></span> <strong>Manikandan Gobalakrishnan</strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- Scripts -->
+  <script src="npm/bootstrap%405.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="npm/particles.js%402.0.0/particles.min.js"></script>
+  <script src="npm/typed.js%402.0.12"></script>
+  <script src="npm/aos%402.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
