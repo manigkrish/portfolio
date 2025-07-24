@@ -1962,12 +1962,3 @@
   flex: 1 1 45%;
   max-width: 800px;
 }
-
-/* Mobile responsive tweak */
-@media (max-width: 768px) {
-  .education-card {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-}
-  
